@@ -1,0 +1,60 @@
+#about {
+    background-color: #7fbcb7;
+}
+
+/***** About Area Style *****/
+
+#about article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+#about figure {
+    display: flex;
+    max-height: 600px;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: auto;
+    border: none;
+}
+
+.about-image{
+    max-width: 260px;
+    height: auto;
+    margin: 15px auto;
+}
+
+#about h3, #about span, #about p {
+    color: #445643;
+}
+
+/**************** Tablet Styles **************/
+@media only screen and (min-width: 768px) {
+    #about article {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+  
+    #about article figure, #about article div {
+        width: 47%;
+    }
+}
+
+/*********************  Desktop Styling ***************************/
+
+@media only screen and (min-width: 1200px) {
+    #about p {
+        font-size: 1.5em;
+        line-height: 1.25em;
+    }
+
+    .about-image {
+        max-width: 350px;
+        margin: 25px auto;
+        padding-left: 50px;
+    }
+}
