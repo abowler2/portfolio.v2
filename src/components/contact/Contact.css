@@ -1,0 +1,79 @@
+#contact {
+    text-align: center;
+    flex-direction: column;
+}
+
+#contact h3 {
+    color: #445643;
+}
+
+#contact .container {
+    flex-flow: column wrap;
+    margin: 0 50px 15px 50px;
+}
+
+#contact p {
+    font-size: 0.75;
+    line-height: 1em;
+    margin: 5px 0;
+}
+
+#contact .contact-info a {
+    text-decoration: none;
+    color: #09a7aa;
+}
+
+#contact .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact .social-icons p {
+    background: #09a7aa;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .social-icons p i {
+    color: #fff;
+    font-size: 1.35em;
+}
+
+/**************** Tablet Styles **************/
+@media only screen and (min-width: 768px) {
+    #contact .container {
+        margin: 0 30px;
+    }
+
+    #contact .row {
+        margin-bottom: 15px;
+    }
+
+    #contact .contact-info,
+    #contact .social,
+    #contact .meetup {
+        display: flex;
+        flex-flow: column wrap;
+        flex-basis: 33%;
+    }
+
+    #contact .social-icons {
+        align-self: center;
+        justify-content: space-around;
+        width: 80%;
+    }
+
+    #contact h3 {
+        font-size: 1.5em;
+    }
+
+    #contact p {
+        font-size: 1em;
+        line-height: 0.75em;
+    }  
+}

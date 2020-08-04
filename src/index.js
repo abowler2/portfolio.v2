@@ -4,6 +4,8 @@ import './index.css';
 import Header from './components/header/Header';
 import Featured from './components/featured/Featured';
 import About from './components/about/About';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -11,6 +13,8 @@ ReactDOM.render(
     <Header />
     <Featured />
     <About />
+    <Contact />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
