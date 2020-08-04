@@ -18,12 +18,48 @@
     font-size: 0.75em;
 }
 
+#featured .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+#featured .button a {
+	background-color: #09a7aa;
+	border-radius: 5px;
+	padding: 5px 10px;
+    color: #fff;
+    font-size: 1em;
+}
+
+#featured .button a:hover {
+    background-color: #078385;
+}
+
+#featured .see-more {
+    color: #445643;
+    margin-top: 15px;
+}
+
+#featured .see-more a {
+    transition-property: font-size;
+    transition-duration: .4s;
+}
+
+#featured .see-more a:hover {
+    font-size: 1.2em;
+}
+
 
 /********* Work section - Tablet ***********/
 
 @media only screen and (min-width: 768px) {
     #featured .row {
         justify-content: space-around;
+    }
+
+    #featured .title {
+        margin-bottom: 10px;
     }
 
     #featured figure,
@@ -42,6 +78,10 @@
 /************ Work section - Desktop ***********/
 
 @media only screen and (min-width: 1200px) {
+    #featured .title {
+        margin-bottom: 15px;
+    }
+
     #featured p {
         font-size: 1.25em;
     }

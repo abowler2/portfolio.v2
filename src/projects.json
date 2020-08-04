@@ -13,7 +13,7 @@
         "id": 2,
         "title": "Unplugged Website",
         "demoUrl": "https://abowler2.github.io/206-unplugged/",
-        "codeUrl": "",
+        "codeUrl": "https://github.com/abowler2/206-unplugged",
         "language": "HTML &amp; CSS",
         "description": "This project was built mobile-first as a responsive, mulit-page website using HTML and CSS including Flexbox and media queries. Re-created based on Photoshop design comps.",
         "image": "unplugged.png"
@@ -24,9 +24,59 @@
         "title": "React Movie DB",
         "demoUrl": "https://codesandbox.io/s/reactmoviedb-e505s",
         "codeUrl": "https://codesandbox.io/s/reactmoviedb-e505s",
-        "language": "React App",
+        "language": "React",
         "description": "Created a Movie App using the Movie DB API.  ~ Implemented React Router ~ Managed state ~ Set up local storage",
         "image": "reactMovie.png"
+
+    },
+    {
+        "id": 4,
+        "title": "Name Tag Generator",
+        "demoUrl": "https://codesandbox.io/s/name-tag-generator-wozwr",
+        "codeUrl": "https://codesandbox.io/s/name-tag-generator-wozwr",
+        "language": "React",
+        "description": "React app ~ Managed the data flow including setting the data model, assigning data management to the components, and rendering the UI with the use of state and props. ~ Added interactivity to allow users to add or delete name tags and set localStorage to save the data between uses.",
+        "image": "nameTag.png"
+
+    },
+    {
+        "id": 5,
+        "title": "Rogue Pickings Website",
+        "demoUrl": "https://abowler2.github.io/206-rogue-pickings/",
+        "codeUrl": "https://github.com/abowler2/206-rogue-pickings",
+        "language": "HTML &amp; CSS",
+        "description": "This single page project was built using HTML &amp; CSS to re-create a Photoshop design comp. It was built from a desktop view and adapted to be responsive via the use of CSS Flexbox.",
+        "image": "roguePickings.png"
+
+    },
+    {
+        "id": 6,
+        "title": "Sticky Notes UI",
+        "demoUrl": "https://codesandbox.io/s/sticky-notes-2ljnt",
+        "codeUrl": "https://codesandbox.io/s/sticky-notes-2ljnt",
+        "language": "React",
+        "description": "React App ~ Built out the component tree by breaking out the functions into presentational and container components. ~ Managed the data flow including setting the data model, assigned data management to the components, and rendered the UI with the use of state and props. ~ Added interactivity to allow users to add, delete, and edit notes and set localStorage to save the data between uses.",
+        "image": "stickyNotes.png"
+
+    },
+    {
+        "id": 7,
+        "title": "Magic 8-Ball",
+        "demoUrl": "https://abowler2.github.io/magic-8ball/",
+        "codeUrl": "https://github.com/abowler2/magic-8ball",
+        "language": "Javascript",
+        "description": "Project to build an interactive Magic 8-Ball using JavaScript with the JQuery library.",
+        "image": "magic8Ball.png"
+
+    },
+    {
+        "id": 8,
+        "title": "Interactive Election Map",
+        "demoUrl": "https://abowler2.github.io/election-map/",
+        "codeUrl": "https://github.com/abowler2/election-map",
+        "language": "Javascrip",
+        "description": "Project to build an interactive election map using JavaScript with the JQuery library.",
+        "image": "electionMap.png"
 
     }
 ]
