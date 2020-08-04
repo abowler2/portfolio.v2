@@ -1,0 +1,48 @@
+#featured .container {
+    margin-bottom: 15px;
+}
+
+#featured {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: #fff;
+}
+
+#featured a {
+    color: #078385;
+    text-decoration: none;
+}
+
+#featured p {
+    font-size: 0.75em;
+}
+
+
+/********* Work section - Tablet ***********/
+
+@media only screen and (min-width: 768px) {
+    #featured .row {
+        justify-content: space-around;
+    }
+
+    #featured figure,
+    #featured article div {
+        display: flex;
+        flex-flow: column wrap;
+        flex-basis: 45%;
+    }
+
+    #featured p {
+        font-size: 1em;
+    }
+}
+
+
+/************ Work section - Desktop ***********/
+
+@media only screen and (min-width: 1200px) {
+    #featured p {
+        font-size: 1.25em;
+    }
+}

@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './components/header/Header';
+import Featured from './components/featured/Featured';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <Featured />
   </React.StrictMode>,
   document.getElementById('root')
 );

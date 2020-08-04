@@ -1,0 +1,35 @@
+
+                
+
+                
+                    
+
+                    <article class="row">
+                        <figure>
+                            <a href="https://abowler2.github.io/206-unplugged/" target="_blank"><img class="img-box" src="img/unplugged.png" alt="Unplugged project" /></a>
+                        </figure>
+                        <div>
+                            <h3><a href="https://abowler2.github.io/206-unplugged/" target="_blank">Unplugged Website</a></h3>
+                            <h4>HTML &amp; CSS</h4>
+                            <p>This project was built mobile-first as a responsive, mulit-page website using HTML and CSS including Flexbox and media queries. Re-created based on Photoshop design comps.</p>
+                        </div>
+                    </article>
+
+                    <article class="row">
+                        <figure>
+                            <a href="https://codesandbox.io/s/reactmoviedb-e505s"  target="_blank"><img class="img-box" src="img/react-movie-pic.png" alt="React Movie DB" /></a>
+                        </figure>
+                        <div>
+                            <h3><a href="https://codesandbox.io/s/reactmoviedb-e505s"  target="_blank">React Movie DB</a></h3>
+                            <h4>React App</h4>
+                            <p>Created a Movie App using the Movie DB API. 
+                                ~ Implemented React Router
+                                ~ Managed state
+                                ~ Set up local storage
+                            </p>
+                        </div>
+                    </article>
+                <div class="container">
+                    <h4>Click <a href="./work/index.html"> HERE </a>to see more work.</h4>
+                </div>
+            

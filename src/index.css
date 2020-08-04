@@ -51,6 +51,15 @@ img {
 	width: 100%;
 }
 
+.container {
+	-webkit-box-pack: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+	margin: 0 30px;
+}
+
 /**************** Tablet Styles **************/
 @media only screen and (min-width: 768px) {
 	.container {
