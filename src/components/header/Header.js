@@ -3,7 +3,7 @@ import './Header.css';
 
 export default function Header() {
 	return (
-		<header class="homepage-header">
+		<header className="homepage-header">
 			<div>
 				<nav id="navbar">
 					<ul>
@@ -12,7 +12,7 @@ export default function Header() {
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
-				<div class="intro">
+				<div className="intro">
 					<h1>Hello, my name is April.</h1>
 					<p>I'm a web developer based in California who enjoys creating beautiful websites.</p>
 				</div>
