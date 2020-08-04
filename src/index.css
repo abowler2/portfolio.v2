@@ -1,47 +1,96 @@
 html {
-  font-size: 16px;
+	font-size: 16px;
 }
 
 body {
-  background: #fff;
-  color: #078385;
-  font-family: 'Roboto', sans-serif;
+	background: #fff;
+	color: #078385;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
 }
 
 h1, h2 {
-  font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto Slab', serif;
 }
 
 h2 {
-  color: #1f2a2c;
-  font-size: 1.75em;
-  margin-bottom: 0;
+	color: #1f2a2c;
+	font-size: 1.75em;
+	margin-bottom: 0;
 }
 
 h3 {
-  font-weight: 700;
-  font-size: 1.25em;
-  margin-bottom: 0;
+	font-weight: 700;
+	font-size: 1.25em;
+	margin-bottom: 0;
 }
 
 h4 {
-  color: #09a7aa;
-  font-weight: 400;
-  font-size: 0.875em;
-  margin: 5px 0;
+	color: #09a7aa;
+	font-weight: 400;
+	font-size: 0.875em;
+	margin: 5px 0;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
 }
 
 figure {
-  margin: 24px 0;
-  border: 1px solid #445643;
+	margin: 24px 0;
+	border: 1px solid #445643;
 }
 
 img {
-  width: 100%;
+	width: 100%;
+}
+
+/**************** Tablet Styles **************/
+@media only screen and (min-width: 768px) {
+	.container {
+		margin: 0 50px;
+	}
+
+	h2 {
+		font-size: 2.125em;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
+	h4 {
+		font-size: 1.25em;
+	}
+
+	.row {
+		display: flex;
+		flex-flow: row wrap;
+		width: 100%;
+	}
+}
+
+  /*********************  Desktop Styling ***************************/
+
+/***  General  ***/
+
+@media only screen and (min-width: 1200px) {
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  h3 {
+    font-size: 2em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
 }

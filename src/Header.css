@@ -1,0 +1,110 @@
+header {
+    padding: 15px 15px 0 15px;
+}
+  
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    font-size: 0.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 45%;
+    text-decoration: none;
+}
+
+header nav ul a {
+    color: #1f2a2c;
+    text-decoration: none;
+}
+
+header nav ul a:hover {
+    color: #078385;
+}
+
+.homepage-header {
+    background: url('./img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.intro h1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 80%;
+    font-size: 2.2em;
+    text-align: right;
+    margin: 0px 10px 0 0;
+}
+
+.intro p {
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2a2c;
+    font-size: 1.2em;
+    text-align: right;
+    margin: 5px 10px 0 0;
+}
+
+/**********  Header - Tablet **********/
+@media only screen and (min-width: 768px) {
+    header nav {
+        font-size: 0.75em;
+    }
+
+    .homepage-header {
+        min-height: 600px;
+    }
+
+    .homepage-header h1 {
+        font-size: 3.5em;
+        margin-top: 15px;
+    }
+
+    .homepage-header p {
+        font-size: 2em;
+        margin: 15px 10px 0 100px;
+    }
+}
+
+/**********  Header - Desktop **********/
+
+@media only screen and (min-width: 1200px) {
+    header nav {
+        font-size: 1em;
+    }
+    header nav ul {
+        flex-basis: 30%;
+    }
+
+    .homepage-header {
+        min-height: 700px;
+    }
+
+    .homepage-header h1 {
+        font-size: 4em;
+    }
+
+    .homepage-header p {
+        font-size: 2.5em;
+    }
+}
