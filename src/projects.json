@@ -41,33 +41,30 @@
     },
     {
         "id": 5,
-        "title": "Rogue Pickings Website",
-        "demoUrl": "https://abowler2.github.io/206-rogue-pickings/",
-        "codeUrl": "https://github.com/abowler2/206-rogue-pickings",
-        "language": "HTML &amp; CSS",
-        "description": "This single page project was built using HTML &amp; CSS to re-create a Photoshop design comp. It was built from a desktop view and adapted to be responsive via the use of CSS Flexbox.",
-        "image": "roguePickings.png"
-
-    },
-    {
-        "id": 6,
         "title": "Sticky Notes UI",
         "demoUrl": "https://codesandbox.io/s/sticky-notes-2ljnt",
         "codeUrl": "https://codesandbox.io/s/sticky-notes-2ljnt",
         "language": "React",
         "description": "React App ~ Built out the component tree by breaking out the functions into presentational and container components. ~ Managed the data flow including setting the data model, assigned data management to the components, and rendered the UI with the use of state and props. ~ Added interactivity to allow users to add, delete, and edit notes and set localStorage to save the data between uses.",
         "image": "stickyNotes.png"
-
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "Magic 8-Ball",
         "demoUrl": "https://abowler2.github.io/magic-8ball/",
         "codeUrl": "https://github.com/abowler2/magic-8ball",
         "language": "Javascript",
         "description": "Project to build an interactive Magic 8-Ball using JavaScript with the JQuery library.",
         "image": "magic8Ball.png"
-
+    },
+    {
+        "id": 7,
+        "title": "Rogue Pickings Website",
+        "demoUrl": "https://abowler2.github.io/206-rogue-pickings/",
+        "codeUrl": "https://github.com/abowler2/206-rogue-pickings",
+        "language": "HTML &amp; CSS",
+        "description": "This single page project was built using HTML &amp; CSS to re-create a Photoshop design comp. It was built from a desktop view and adapted to be responsive via the use of CSS Flexbox.",
+        "image": "roguePickings.png"
     },
     {
         "id": 8,
@@ -77,6 +74,5 @@
         "language": "Javascrip",
         "description": "Project to build an interactive election map using JavaScript with the JQuery library.",
         "image": "electionMap.png"
-
     }
 ]
