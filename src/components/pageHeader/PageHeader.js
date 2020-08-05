@@ -5,7 +5,7 @@ import logo from '../../img/logo.png'
 export default function PageHeader() {
     return (
         <header>
-            <div class="work-header header-divider">
+            <div className="work-header header-divider">
                 <figure>
                     <img src={ logo } alt="A.Bowler" />
                 </figure>

@@ -1,0 +1,42 @@
+#projects {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.work-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.project-card {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 300px;
+    margin: 10px 0;
+}
+
+.project-card img {
+    margin-top: 10px;
+    border: 1px solid #445643;
+}
+
+/**************** Tablet Styles **************/
+@media only screen and (min-width: 768px) {
+    #projects {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    }
+}
+
+/*********************  Desktop Styling ***************************/
+
+@media only screen and (min-width: 1200px) {
+    .project-card {
+        width: 600px;
+        margin: 15px 0;
+    }
+}
