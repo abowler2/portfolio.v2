@@ -7,7 +7,7 @@ export default function Header() {
 			<div>
 				<nav id="navbar">
 					<ul>
-						<li><a href="./work/index.html">Work</a></li>
+						<li><a href="/work">Work</a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>

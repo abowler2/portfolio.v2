@@ -1,0 +1,23 @@
+.work-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.work-header figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 15%;
+    flex-flow: row wrap;
+    border: none;
+    margin: 0 0 -10px 5px;
+}
+
+.header-divider {
+    border-bottom: solid 1px #b4c7ca;
+    width: 100%;
+    margin-bottom: 10px;
+}
