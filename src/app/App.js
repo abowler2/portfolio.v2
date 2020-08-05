@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from '../home/Home';
 import Work from '../work/Work';
-// import NotFound from '../elements/NotFound/NotFound'
+import NotFound from '../components/notFound/NotFound';
 
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
                 <Switch>
                     <Route path='/' component={Home} exact />
                     <Route path='/work' component={Work} exact />
-                    {/* <Route component={NotFound} /> */}
+                    <Route component={NotFound} />
                 </Switch>
             </React.Fragment>
         </BrowserRouter>
