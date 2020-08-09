@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Open Source Contributions",
-        "demoUrl": "https://github.com/abowler2/OpenSourceContributions",
+        "demoUrl": "",
         "codeUrl": "https://github.com/abowler2/OpenSourceContributions",
         "language": "React, Next.js, & Django",
         "description": "Contributions made to Open Source Projects ranging from markdown to added features. As an Intern at Mozilla with Outreachy I was able to work on the Pontoon project for an extended period of time adding the ability for users to change the source locale to their preference. I am currently working on adding the ability to leave comments within the translation UX.",

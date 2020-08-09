@@ -61,6 +61,26 @@
     font-size: 1.5em;
 }
 
+.modal .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.modal .buttons a {
+    background-color: #09a7aa;
+	border-radius: 5px;
+	padding: 5px 10px;
+    color: #fff;
+    font-size: 1em;
+    width: 100px;
+    margin: 0 8px;
+    text-align: center;
+}
+
+.modal .button a:hover {
+    background-color: #078385;
+}
+
 /**************** Tablet Styles **************/
 @media only screen and (min-width: 768px) {
     #projects {

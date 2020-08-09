@@ -29,6 +29,16 @@ export default function Projects() {
                                         <h2 className="modal-title">{ project.title }</h2>
                                         <p>{ project.language }</p>
                                         <p>{ project.description }</p>
+                                        <div className="buttons">
+                                            {project.demoUrl &&
+                                                <a href={ project.demoUrl} target="_blank" rel="noopener noreferrer">
+                                                    See the Site
+                                                </a>
+                                            }
+                                            <a href={ project.codeUrl } target="_blank" rel="noopener noreferrer">
+                                                See the Code
+                                            </a>
+                                        </div>
                                     </div>
                                 </Modal>
                             )}
