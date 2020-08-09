@@ -5,7 +5,7 @@ import projects from '../../projects.json';
 export default function Projects() {
     return (
         <section>
-            <h2 class="work-title">My Work</h2>
+            <h2 className="work-title">My Work</h2>
             <div id="projects">
                 {projects.map(project => (
                     <div className="project-card" key={ project.id }>
