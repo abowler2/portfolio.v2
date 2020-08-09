@@ -54,6 +54,16 @@
     position: absolute;
     top: 15px;
     right: 15px;
+    border: none;
+}
+
+.close-icon {
+    width: 20px;
+    height: 20px;
+    fill: transparent;
+    stroke: black;
+    stroke-linecap: round;
+    stroke-width: 3;
 }
 
 .modal-title {
