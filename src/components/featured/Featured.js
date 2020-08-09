@@ -18,13 +18,21 @@ export default function Header() {
                     {/* Set className of 'row' in order to line up image and description on bigger screens */}
                     <article className="row">
                         <figure>
-                            <a href={ firstFeature.demoUrl } target="_blank" rel="noopener noreferrer">
+                            <a 
+                                href={ firstFeature.demoUrl ? firstFeature.demoUrl : firstFeature.codeUrl} 
+                                target="_blank" rel="noopener noreferrer"
+                            >
                                 <img className="img-box" src={ require(`../../img/${firstFeature.image}`) } alt="Pontoon" />
                             </a>
                         </figure>
                         <div>
                             <h3>
-                                <a href={ firstFeature.demoUrl } target="_blank" rel="noopener noreferrer">{ firstFeature.title }</a>
+                                <a 
+                                    href={ firstFeature.demoUrl ? firstFeature.demoUrl : firstFeature.codeUrl } 
+                                    target="_blank" rel="noopener noreferrer"
+                                >
+                                    { firstFeature.title }
+                                </a>
                             </h3>
                             <h4>{ firstFeature.language }</h4>
                             <p>{ firstFeature.description }</p>
@@ -35,13 +43,21 @@ export default function Header() {
                     </article>
                     <article className="row">
                         <figure>
-                            <a href={ secondFeature.demoUrl } target="_blank" rel="noopener noreferrer">
+                            <a 
+                                href={ secondFeature.demoUrl ? secondFeature.demoUrl : secondFeature.codeUrl } 
+                                target="_blank" rel="noopener noreferrer"
+                            >
                                 <img className="img-box" src={ require(`../../img/${secondFeature.image}`) } alt="Unplugged project" />
                             </a>
                         </figure>
                         <div>
                             <h3>
-                                <a href={ secondFeature.demoUrl } target="_blank" rel="noopener noreferrer">{ secondFeature.title }</a>
+                                <a 
+                                    href={ secondFeature.demoUrl ? secondFeature.demoUrl : secondFeature.codeUrl } 
+                                    target="_blank" rel="noopener noreferrer"
+                                >
+                                    { secondFeature.title }
+                                </a>
                             </h3>
                             <h4>{ secondFeature.language }</h4>
                             <p>{ secondFeature.description }</p>
@@ -53,13 +69,21 @@ export default function Header() {
 
                     <article className="row">
                         <figure>
-                            <a href={ thirdFeature.demoUrl }  target="_blank" rel="noopener noreferrer">
+                            <a 
+                                href={ thirdFeature.demoUrl ? thirdFeature.demoUrl : thirdFeature.codeUrl }  
+                                target="_blank" rel="noopener noreferrer"
+                            >
                                 <img className="img-box" src={ require(`../../img/${thirdFeature.image}`) } alt="React Movie DB" />
                             </a>
                         </figure>
                         <div>
                             <h3>
-                                <a href={ thirdFeature.demoUrl }  target="_blank" rel="noopener noreferrer">{ thirdFeature.title }</a>
+                                <a 
+                                    href={ thirdFeature.demoUrl ? thirdFeature.demoUrl : thirdFeature.codeUrl }  
+                                    target="_blank" rel="noopener noreferrer"
+                                >
+                                    { thirdFeature.title }
+                                </a>
                             </h3>
                             <h4>{ thirdFeature.language }</h4>
                             <p>{ thirdFeature.description }</p>
