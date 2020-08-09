@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/portfolio.v2/static/css/main.f39e820b.chunk.css",
+    "main.js": "/portfolio.v2/static/js/main.305eb785.chunk.js",
+    "main.js.map": "/portfolio.v2/static/js/main.305eb785.chunk.js.map",
+    "runtime-main.js": "/portfolio.v2/static/js/runtime-main.76372d11.js",
+    "runtime-main.js.map": "/portfolio.v2/static/js/runtime-main.76372d11.js.map",
+    "static/js/2.e6c271fc.chunk.js": "/portfolio.v2/static/js/2.e6c271fc.chunk.js",
+    "static/js/2.e6c271fc.chunk.js.map": "/portfolio.v2/static/js/2.e6c271fc.chunk.js.map",
+    "index.html": "/portfolio.v2/index.html",
+    "precache-manifest.9af169ccd32b0ca5917455823772c686.js": "/portfolio.v2/precache-manifest.9af169ccd32b0ca5917455823772c686.js",
+    "service-worker.js": "/portfolio.v2/service-worker.js",
+    "static/css/main.f39e820b.chunk.css.map": "/portfolio.v2/static/css/main.f39e820b.chunk.css.map",
+    "static/js/2.e6c271fc.chunk.js.LICENSE.txt": "/portfolio.v2/static/js/2.e6c271fc.chunk.js.LICENSE.txt",
+    "static/media/blankCanvas.png": "/portfolio.v2/static/media/blankCanvas.8f5a6629.png",
+    "static/media/electionMap.png": "/portfolio.v2/static/media/electionMap.ce8c99df.png",
+    "static/media/hero.jpg": "/portfolio.v2/static/media/hero.0a932ca4.jpg",
+    "static/media/holstee-manifesto-full.png": "/portfolio.v2/static/media/holstee-manifesto-full.fb63dd81.png",
+    "static/media/holstee-manifesto.png": "/portfolio.v2/static/media/holstee-manifesto.163a5e29.png",
+    "static/media/jubilee-austen-full.png": "/portfolio.v2/static/media/jubilee-austen-full.7bb9d654.png",
+    "static/media/jubilee-austen.png": "/portfolio.v2/static/media/jubilee-austen.f0e1f44a.png",
+    "static/media/logo.png": "/portfolio.v2/static/media/logo.d756b244.png",
+    "static/media/lolcat-clock.png": "/portfolio.v2/static/media/lolcat-clock.d9ddfc83.png",
+    "static/media/magic8Ball.png": "/portfolio.v2/static/media/magic8Ball.237e0571.png",
+    "static/media/me.jpg": "/portfolio.v2/static/media/me.c4f77e77.jpg",
+    "static/media/nameTag.png": "/portfolio.v2/static/media/nameTag.f36a2415.png",
+    "static/media/page-header.png": "/portfolio.v2/static/media/page-header.3c7e2f96.png",
+    "static/media/pontoon.png": "/portfolio.v2/static/media/pontoon.b627e0ec.png",
+    "static/media/reactMovie.png": "/portfolio.v2/static/media/reactMovie.e7fa0ec7.png",
+    "static/media/roguePickings.png": "/portfolio.v2/static/media/roguePickings.8671d4ca.png",
+    "static/media/stickyNotes.png": "/portfolio.v2/static/media/stickyNotes.2c39897d.png",
+    "static/media/tribute-page.png": "/portfolio.v2/static/media/tribute-page.0f735e03.png",
+    "static/media/unplugged.png": "/portfolio.v2/static/media/unplugged.d2b8e4d0.png",
+    "static/media/work-page-header.jpg": "/portfolio.v2/static/media/work-page-header.77b2c21f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76372d11.js",
+    "static/js/2.e6c271fc.chunk.js",
+    "static/css/main.f39e820b.chunk.css",
+    "static/js/main.305eb785.chunk.js"
+  ]
+}
