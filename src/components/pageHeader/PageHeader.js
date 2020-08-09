@@ -7,7 +7,7 @@ export default function PageHeader() {
         <header>
             <div className="work-header header-divider">
                 <figure>
-                    <img src={ logo } alt="A.Bowler" />
+                    <a href="/"><img src={ logo } alt="A.Bowler" /></a>
                 </figure>
 
                 <nav>
