@@ -4,7 +4,7 @@
         "title": "Open Source Contributions",
         "demoUrl": "https://github.com/abowler2/OpenSourceContributions",
         "codeUrl": "https://github.com/abowler2/OpenSourceContributions",
-        "language": "React, Next.js, &amp; Django",
+        "language": "React, Next.js, & Django",
         "description": "Contributions made to Open Source Projects ranging from markdown to added features. As an Intern at Mozilla with Outreachy I was able to work on the Pontoon project for an extended period of time adding the ability for users to change the source locale to their preference. I am currently working on adding the ability to leave comments within the translation UX.",
         "image": "pontoon.png"
 
@@ -14,7 +14,7 @@
         "title": "Unplugged Website",
         "demoUrl": "https://abowler2.github.io/206-unplugged/",
         "codeUrl": "https://github.com/abowler2/206-unplugged",
-        "language": "HTML &amp; CSS",
+        "language": "HTML & CSS",
         "description": "This project was built mobile-first as a responsive, mulit-page website using HTML and CSS including Flexbox and media queries. Re-created based on Photoshop design comps.",
         "image": "unplugged.png"
 
@@ -62,7 +62,7 @@
         "title": "Rogue Pickings Website",
         "demoUrl": "https://abowler2.github.io/206-rogue-pickings/",
         "codeUrl": "https://github.com/abowler2/206-rogue-pickings",
-        "language": "HTML &amp; CSS",
+        "language": "HTML & CSS",
         "description": "This single page project was built using HTML &amp; CSS to re-create a Photoshop design comp. It was built from a desktop view and adapted to be responsive via the use of CSS Flexbox.",
         "image": "roguePickings.png"
     },

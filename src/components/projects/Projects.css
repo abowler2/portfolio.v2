@@ -22,6 +22,43 @@
 .project-card img {
     margin-top: 10px;
     border: 1px solid #445643;
+    cursor: pointer;
+}
+
+.modal-container {
+    position: fixed;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    padding: 0 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal {
+    position: fixed;
+    padding: 24px;
+    background-color: #ffffff;
+    border: 1px solid grey;
+    border-radius: 3px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    overflow: auto;
+    max-width: 500px;
+}
+
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.modal-title {
+    text-align: center;
+    font-size: 1.5em;
 }
 
 /**************** Tablet Styles **************/
