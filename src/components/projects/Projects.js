@@ -42,8 +42,14 @@ export default function Projects() {
 
 const ToggleContent = ({ toggle, content }) => {
     const [isShown, setIsShown] = useState(false);
-    const hide = () => setIsShown(false);
-    const show = () => setIsShown(true);
+    const hide = () => {
+        setIsShown(false);
+        document.body.style.overflow = 'unset';
+    }
+    const show = () => {
+        setIsShown(true);
+        document.body.style.overflow = 'hidden';
+    }
 
     return (
         <React.Fragment>
